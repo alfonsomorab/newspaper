@@ -60,7 +60,7 @@ class ListNewsWidget extends StatelessWidget {
   }
 
   Widget _createImage( Article article ){
-    if ( article.urlToImage.isNotEmpty &&  article.urlToImage != null){
+    if ( /*article.urlToImage.isNotEmpty &&*/  article.urlToImage != null){
       return Container(
         height: 300.0,
         margin: EdgeInsets.only(top: 10.0),
